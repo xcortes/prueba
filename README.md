@@ -60,4 +60,5 @@ Esto según ubicación dada en la línea:
  @./&1/ICV/Procedure/P_ICV_PS_CUOTA_TBL.sql
 ~~~
 Compila el procedimiento almacenado *P_ICV_PS_CUOTA_TBL.sqpl* ejecutando el Script .sql ubicado en la ruta **@./&1/ICV/Procedure/**
-  *README* creado septiembre 09 de 2024
+
+   *README* creado septiembre 09 de 2024
