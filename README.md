@@ -8,9 +8,9 @@ arquitect@ o desarrollador@!
 El proyecto cuenta con la siguiente estructura de carpetas:  
 
 **ODS_STAG:** Configuración lógica asociada a los objetos pertenecientes al usuario "ODS_STAG" dentro de la base de datos PDODS, con el propósito de Almacenar la información que llega de los diferentes aplicativos para brindar la disponibilidad 
-en cuanto a consultas históricas y de generación de reportes y archivos.  `*By:@RZAMBR3*`
+en cuanto a consultas históricas y de generación de reportes y archivos.  `By:@RZAMBR3`
 
-**ICV:** Configuración lógica asociada a los objetos pertenecientes al usuario "ICV" dentro de la base de datos PDODS, con el propósito de almacenar y generar información asociada al árbol de NODOS consultada desde CRM.  `By:@RZAMBR3*`
+**ICV:** Configuración lógica asociada a los objetos pertenecientes al usuario "ICV" dentro de la base de datos PDODS, con el propósito de almacenar y generar información asociada al árbol de NODOS consultada desde CRM.  `By:@RZAMBR3`
 
 ## :rocket: Workflow GitHub Actions :rocket: 
 Flujo de trabajo diseñado para el despliegue de base de datos con motor Oracle para uno o varios esquemas.
