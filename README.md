@@ -21,5 +21,28 @@ Este repositorio proporciona un flujo de trabajo diseñado para el despliegue de
 > 1. El archivo `OrdenInstalacion.txt` debe ir organizado en el orden de ejecución de cada uno de los esquemas.
 > 2. Para los archivos: `OrdenInstalacion.txt`, `INSTALL.sql` se deben tener configurada la codificación “UTF-8” y la secuencia de fin de línea. “LF” o bien, se sugiere editar directamente en GitHub conservando la codificación de los archivos.
 
+## Estructura del repositorio
+El proyecto cuenta con la siguiente estructura de carpetas
+~~~
+/bdb-dns/bbog-gid-onpods-scripts-db
+├── *.github*
+│
+├── /ICV
+│   ├── Function/
+│   ├── Package/
+│   ├── Scripts/
+│   ├── INSTALL.sql
+│
+├── /ODS_STAG
+│   ├── Function/
+│   ├── Package/
+│   ├── Scripts/
+│   ├── INSTALL.sql
+│
+├── OrdenInstalacion.txt
+└── README.md
+
+~~~
+
   
   *README* creado septiembre 09 de 2024
