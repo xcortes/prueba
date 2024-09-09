@@ -25,7 +25,7 @@ Este repositorio proporciona un flujo de trabajo diseñado para el despliegue de
 El proyecto cuenta con la siguiente estructura de carpetas
 ~~~
 /bdb-dns/bbog-gid-onpods-scripts-db
-├── *.github*
+├── .github
 │
 ├── /ICV
 │   ├── Function/
@@ -59,6 +59,5 @@ Esto según ubicación dada en la línea:
  ~~~
  @./&1/ICV/Procedure/P_ICV_PS_CUOTA_TBL.sql
 ~~~
-Compila el procedimiento almacenado *P_ICV_PS_CUOTA_TBL.sqpl* ejecutando el Script .sql ubicado en la ruta **@./&1/ICV/Procedure/**  
-
-*README* creado septiembre 09 de 2024
+Compila el procedimiento almacenado *P_ICV_PS_CUOTA_TBL.sqpl* ejecutando el Script .sql ubicado en la ruta **@./&1/ICV/Procedure/**
+  *README* creado septiembre 09 de 2024
