@@ -25,7 +25,7 @@ Este repositorio proporciona un flujo de trabajo diseñado para el despliegue de
 El proyecto cuenta con la siguiente estructura de carpetas
 ~~~
 /bdb-dns/bbog-gid-onpods-scripts-db
-├── .github
+├── /.github
 │
 ├── /ICV
 │   ├── Function/
