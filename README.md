@@ -43,6 +43,8 @@ El proyecto cuenta con la siguiente estructura de carpetas
 └── README.md
 
 ~~~
+**ICV:**, **ODS_STAG:**, Carpetas que contienen los artefactos específicos para cada esquema.
+
 
   
   *README* creado septiembre 09 de 2024
