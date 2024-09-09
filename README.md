@@ -45,7 +45,7 @@ El proyecto cuenta con la siguiente estructura de carpetas
 ~~~
 **'ICV'**, **'ODS_STAG'**, Carpetas que contienen los artefactos específicos para cada esquema.  
 
-**'OrdenInstalación.txt'** Archivo que define el orden de ejecución de los esquemas.  
+**'OrdenInstalacion.txt'** Archivo que define el orden de ejecución de los esquemas.  
 
 **'INSTALL.sql'** Este Script ejecuta:
 - Instalacion cambiando SCHEMA actual a **ICV**
