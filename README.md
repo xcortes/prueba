@@ -13,8 +13,7 @@ en cuanto a consultas históricas y de generación de reportes y archivos.  `By:
 **ICV:** Configuración lógica asociada a los objetos pertenecientes al usuario "ICV" dentro de la base de datos PDODS, con el propósito de almacenar y generar información asociada al árbol de NODOS consultada desde CRM.  `By:@RZAMBR3`
 
 ## :rocket: Workflow GitHub Actions :rocket: 
-Flujo de trabajo diseñado para el despliegue de base de datos con motor Oracle para uno o varios esquemas.
-Para ejecutarse el flujo se valida que las carpetas que representan el esquema tengan alguna modificación y ejecuta el archivo 'INSTALL.sql' en el orden especificado en el archivo 'OrdenInstalación.txt'.
+Este repositorio proporciona un flujo de trabajo diseñado para el despliegue de bases de datos utilizando el motor Oracle, permitiendo la gestión de uno o varios esquemas. El flujo se ejecuta tras validar que las carpetas que representan los esquemas han tenido modificaciones. Posteriormente, se ejecuta el archivo 'INSTALL.sql' en el orden especificado en el archivo 'OrdenInstalación.txt'.
 
 ![image](https://github.com/user-attachments/assets/d92115a3-14b5-4a9b-8f30-ffd59f0f8c5a)
 
