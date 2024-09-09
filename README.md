@@ -43,8 +43,25 @@ El proyecto cuenta con la siguiente estructura de carpetas
 └── README.md
 
 ~~~
-**ICV:**, **ODS_STAG:**, Carpetas que contienen los artefactos específicos para cada esquema.
+**ICV**, **ODS_STAG**, Carpetas que contienen los artefactos específicos para cada esquema.
+**OrdenInstalación.txt** Archivo que define el orden de ejecución de los esquemas
+**INSTALL.sql**ste Script ejecuta:
+- Instalacion cambiando SCHEMA actual a **ICV**
+- Compilación Scripts
+- Compilación procedimientos almacenados
+- Compilación de paquetes modificados
+
+Esto según ubicación dada en la línea:
+~~~
+@./&1/ICV/
+~~~
+ 
+ Ejemplo: 
+ ~~~
+ @./&1/ICV/Procedure/P_ICV_PS_CUOTA_TBL.sql
+~~~
+ 
+ Compila el procedimiento almacenado P_ICV_PS_CUOTA_TBL ejecutando el Script .sql ubicado en la ruta **@./&1/ICV/Procedure/**
 
 
-  
   *README* creado septiembre 09 de 2024
