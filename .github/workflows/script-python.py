@@ -5,7 +5,7 @@ on:
     branches: 
       - main
     
-jobs:
+jobs: 
   run-python:
     runs-on: ubuntu-latest
     
