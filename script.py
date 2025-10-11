@@ -1,1 +1,1 @@
-print("Hooa desde Script.py GHA")
+print("Hola desde Script.py GHA")
