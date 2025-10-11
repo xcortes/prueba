@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Descargar code rwpositorio
-      uses: action/checkout@v4
+    - name: Descargar code repositorio
+      uses: actions/checkout@v4
     steps:
     - name: Config Python
       uses: actions/setup-python@v5
