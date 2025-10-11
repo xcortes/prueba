@@ -19,4 +19,6 @@ jobs:
         python-version: '3.x'
         
     - name: Ejecutar Script
-      run: python script.py
+      run: |
+        python script.py >> $GITHUB_STEP_SUMMARY
+  
