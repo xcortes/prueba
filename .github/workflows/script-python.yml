@@ -15,9 +15,10 @@ jobs:
 
     - name: Config Python
       uses: actions/setup-python@v5
-      with: 
+       with: 
         python-version: '3.x'
         
     - name: Ejecutar Script
-      run: 
+      run: |
+        echo "## 🚀 Resultado del workflow" >> $GITHUB_STEP_SUMMARY
         python script.py >> $GITHUB_STEP_SUMMARY
