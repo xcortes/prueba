@@ -3,7 +3,7 @@ name: Hola Mundo
 on:
  push:
   branches: 
-    - main
+    - main-
 
 jobs: 
   hola-mundo:
