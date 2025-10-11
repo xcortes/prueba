@@ -1,0 +1,13 @@
+name: Hola Mundo
+
+on:
+ push:
+  branches: 
+    - main
+
+jobs: 
+  hola-mundo:
+    runs-on: ububtu-latest
+    steps:
+      - name: Mostrar msj
+        run: echo "¡Hola Mundo desde GitHub Actions!"
