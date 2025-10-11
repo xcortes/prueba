@@ -20,5 +20,5 @@ jobs:
         
     - name: Ejecutar Script
       run: |
-        python script.py >> $GITHUB_STEP_SUMMARY
+        #python script.py >> $GITHUB_STEP_SUMMARY
         echo "Ejecuciom Script.py" >>> $GITHUB_STEP_SUMMARY
