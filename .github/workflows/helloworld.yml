@@ -7,7 +7,7 @@ on:
 
 jobs: 
   hola-mundo:
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Mostrar msj
         run: echo "¡Hola Mundo desde GitHub Actions!"
